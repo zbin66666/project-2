@@ -24,7 +24,7 @@ router.beforeResolve((to, from, next) => {
 router.afterEach(() => {
   NProgress.done();
 });
-
+// eslint-disable-next-line no-unused-vars
 let vm = new Vue({
   router,
   store,

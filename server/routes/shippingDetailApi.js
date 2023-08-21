@@ -5,6 +5,11 @@ const router = express.Router();
 
 const ShippingModel = require("../mongo/model/shipping-detail");
 
+/*
+  API for ShippingSchema Schema
+  Product Create and Read all Policies API 's
+
+*/
 router
   .route("/shipping")
 
